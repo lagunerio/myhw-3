@@ -24,7 +24,6 @@ p_meta find_meta(p_meta *last, size_t size) {
         base.s.size = 0;
     }
 
-
     /*
      * Iterate over the free list and find a block that is large enough to hold
      * size of data.
